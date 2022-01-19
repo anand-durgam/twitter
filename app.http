@@ -35,3 +35,37 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZ
 GET http://localhost:3000/user/followers/
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjQyNDk5MTc2fQ.l2rAdyeIU0G47oj5_pxg_aTqDuanfD--LL7m5HeUsXg
 ###
+
+GET http://localhost:3000/tweets/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjQyNDk5MTc2fQ.l2rAdyeIU0G47oj5_pxg_aTqDuanfD--LL7m5HeUsXg
+###
+
+GET http://localhost:3000/tweets/2/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjQyNDk5MTc2fQ.l2rAdyeIU0G47oj5_pxg_aTqDuanfD--LL7m5HeUsXg
+###
+
+GET http://localhost:3000/tweets/7/likes/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjQyNDk5MTc2fQ.l2rAdyeIU0G47oj5_pxg_aTqDuanfD--LL7m5HeUsXg
+###
+
+GET http://localhost:3000/tweets/1/replies/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjQyNDk5MTc2fQ.l2rAdyeIU0G47oj5_pxg_aTqDuanfD--LL7m5HeUsXg
+###
+
+GET http://localhost:3000/user/tweets/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjQyNDk5MTc2fQ.l2rAdyeIU0G47oj5_pxg_aTqDuanfD--LL7m5HeUsXg
+###
+
+POST http://localhost:3000/user/tweets/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjQyNDk5MTc2fQ.l2rAdyeIU0G47oj5_pxg_aTqDuanfD--LL7m5HeUsXg
+
+{
+    "tweet": "The happiness"
+}
+
+###
+
+DELETE http://localhost:3000/tweets/8/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjQyNDk5MTc2fQ.l2rAdyeIU0G47oj5_pxg_aTqDuanfD--LL7m5HeUsXg
+###
